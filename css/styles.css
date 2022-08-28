@@ -77,9 +77,9 @@ a {
     margin: -1px;
 }
 
-.page {}
+/*.page {}*/
 
-.link {}
+/*.link {}*/
 
 .img {
     display: block;
@@ -263,7 +263,7 @@ a {
 }
 
 .work {
-    padding-top: 0;
+    padding-top: 0; 
 }
 
 .work-list {
@@ -348,7 +348,7 @@ a {
 
 /*portfolio-page*/
 
-.portfolio {}
+/*.portfolio {}*/
 
 .portfolio-buttons-list {
     display: flex;
@@ -437,7 +437,7 @@ a {
     color: var(--white-color);
 }
 
-.footer-contacts {}
+/*.footer-contacts {}*/
 
 .address-list {
     display: flex;

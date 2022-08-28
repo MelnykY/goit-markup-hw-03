@@ -222,7 +222,7 @@ a {
     background-color: var(--btn-accent-color);
 }
 
-.features {}
+/*.features {}*/
 
 .features-container {
     width: 1200px;
@@ -237,7 +237,7 @@ a {
     gap: 30px;
 }
 
-.features-list-item {}
+/*.features-list-item {}*/
 
 .features-list-item-heading {
     font-size: 14px;
@@ -263,7 +263,7 @@ a {
 }
 
 .work {
-    padding-bottom: 94px;
+    padding-top: 0;
 }
 
 .work-list {
@@ -289,9 +289,9 @@ a {
     text-align: center;
 }
 
-.work-list {}
+/*.work-list {}*/
 
-.work-list-item {}
+/*.work-list-item {}*/
 
 .team {
     background-color: var(--secondary-bg-color);
@@ -394,6 +394,7 @@ a {
     flex-basis: calc((100% - var(var(--indent)) * var(--items) - 1)) / var(--items);
 }
 
+/*.portfolio-link {}*/
 
 .portfolio-project-text {
     padding: 20px 24px;

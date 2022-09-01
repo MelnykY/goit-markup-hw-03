@@ -16,6 +16,7 @@
     --header-bg-color: #FFFFFF;
     --footer-bg-color: #2F303A;
     --banner-bg-color: #2F303A;
+    --banner-gradient: #30313b66;
     --icon-bg-color: #AFB1B8;
     /*btn-color*/
     --btn-color: #F5F4FA;
@@ -176,9 +177,9 @@ navigation
 header contacts
 =============*/
 
-.header-contacts-list {}
+/*.header-contacts-list {}*/
 
-.header-contacts-box {}
+/*.header-contacts-box {}*/
 
 .header-contacts-list-item {
     font-size: 14px;
@@ -206,10 +207,16 @@ header contacts
 
 /*.main {}*/
 
-/*index-page*/
+/*=============
+index-page
+=============*/
+
 .hero {
     background-color: var(--banner-bg-color);
-    background-image: url(../img/hero-bg-img.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(var(--banner-gradient), var(--banner-gradient)), url('../img/hero-bg-img.jpg');
     text-align: center;
     padding: 200px 0;
 
@@ -402,7 +409,7 @@ header contacts
 clients
 ===============*/
 
-.clients {}
+/*.clients {}*/
 
 .clients-heading {
     font-size: 36px;
@@ -426,7 +433,7 @@ clients
     gap: 30px;
 }
 
-.clients-list-item {}
+/*.clients-list-item {}*/
 
 .clients-icon {
     width: 170px;

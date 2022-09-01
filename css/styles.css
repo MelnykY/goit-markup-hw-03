@@ -383,19 +383,57 @@ header contacts
     color: var(--main-color);
     letter-spacing: 0.03em;
     margin-bottom: 16px;
-    ;
 }
 
 .team-icon-list {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
     gap: 10px;
+    width: 206px;
+    height: 44px;
 }
 
 .team-icon {
     fill: var(--icon-bg-color);
+}
 
+/*===============
+clients
+===============*/
 
+.clients {}
+
+.clients-heading {
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    color: var(--heading-color);
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.clients-container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clients-list {
+    gap: 30px;
+}
+
+.clients-list-item {}
+
+.clients-icon {
+    width: 170px;
+    height: 92px;
+    border: 1px solid var(--icon-bg-color);
+    border-radius: 4px;
+    fill: var(--icon-bg-color);
 }
 
 /*===============

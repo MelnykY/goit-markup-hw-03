@@ -113,6 +113,7 @@ header
 .header .link:hover,
 .header .link:focus {
     color: var(--accent-color);
+    fill: var(--accent-color);
 }
 
 .header-container {
@@ -171,13 +172,13 @@ navigation
     letter-spacing: 0.02em;
 }
 
-.header-contacts-list {
-    
-}
+/*=============
+header contacts
+=============*/
 
-.header-contacts-box {
+.header-contacts-list {}
 
-}
+.header-contacts-box {}
 
 .header-contacts-list-item {
     font-size: 14px;
@@ -185,7 +186,16 @@ navigation
     color: var(--main-color);
     font-weight: 500;
     letter-spacing: 0.02em;
-    
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.contacts-icon {
+    display: inline-block;
+    width: 16px;
+    fill: solid var(--main-color);
+    align-items: center;
 }
 
 /*header line for portfolio page*/
